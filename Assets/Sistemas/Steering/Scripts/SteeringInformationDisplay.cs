@@ -25,7 +25,7 @@ public class SteeringInformationDisplay : MonoBehaviour
         accelerationDisplay.text = steering.AccelerationResult.magnitude.ToString("F2");
 
         AdjustBar(accelerationBars[0], velocity, agent.MaxSpeed.CurrentValue);
-
+        
         for (var index = Behavior.Seek; index <= Behavior.Flee; index++)
         {
             AdjustBar(accelerationBars[(int)index], steering[index], agent.MaxAcceleration.CurrentValue);

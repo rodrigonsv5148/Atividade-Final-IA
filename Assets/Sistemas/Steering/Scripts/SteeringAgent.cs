@@ -19,6 +19,7 @@ public class SteeringAgent : MonoBehaviour, IObstacle
     public Transform Target { get => target; set => target = value; }
     public SteeringOutput SteeringOutput { get; private set; }
     public SteeringStrategy Strategy => strategy;
+    public bool isSteering = true;
 
     [ContextMenu("AddDefaultStrategy")]
     public void AddDefaultStrategy()
@@ -31,19 +32,23 @@ public class SteeringAgent : MonoBehaviour, IObstacle
                 new Arrive() { IsActive = false },
                 new Pursue() { IsActive = false },
                 new Seek() { IsActive = false },
-                new Flee() { IsActive = false }
+                new Flee() { IsActive = false },
+                new Evade() { IsActive = false }
             }
         };
     }
 
     public void FixedUpdate()
     {
-        SteeringOutput = strategy.CalculateSteering(this);
+        if (isSteering) 
+        {
+            SteeringOutput = strategy.CalculateSteering(this);
 
-        physics.velocity += SteeringOutput.AccelerationResult * Time.fixedDeltaTime;
-        transform.eulerAngles = Velocity.magnitude > 0.1f ?
-            new Vector3(0f, 0f, Mathf.Rad2Deg * Mathf.Atan2(-Velocity.x, Velocity.y)) :
-            transform.eulerAngles;
+            physics.velocity += SteeringOutput.AccelerationResult * Time.fixedDeltaTime;
+            transform.eulerAngles = Velocity.magnitude > 0.1f ?
+                new Vector3(0f, 0f, Mathf.Rad2Deg * Mathf.Atan2(-Velocity.x, Velocity.y)) :
+                transform.eulerAngles;
+        }
     }
 
     void Awake()
@@ -58,7 +63,8 @@ public class SteeringAgent : MonoBehaviour, IObstacle
                 new Arrive(),
                 new Seek(),
                 new Pursue() { IsActive = false },
-                new Flee() { IsActive = false }
+                new Flee() { IsActive = false },
+                new Evade() { IsActive= false }
             }
         };
     }

@@ -10,7 +10,9 @@ public class Seek : SteeringBehavior
         var delta = agent.TargetPosition - agent.Position;
         var desiredVelocity = delta.normalized * agent.MaxSpeed.CurrentValue;
         var desiredAcceleration = desiredVelocity - agent.Velocity;
+        Debug.DrawLine(agent.Position, agent.Position + delta, Color.white);
         return desiredAcceleration * agent.MaxAcceleration.CurrentValue / agent.MaxSpeed.CurrentValue;
+
     }
 
     public override IEnumerable<StateParameter> GetParameters()

@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -205,7 +204,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1289845493}
   m_HandleRect: {fileID: 1289845492}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -367,7 +366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 33431142}
   distanceToOrigin: 55.891632
 --- !u!4 &33431146
@@ -518,9 +517,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 38277878}
-  distanceToOrigin: 1943.31
+  distanceToOrigin: 758.4545
 --- !u!1 &40278651
 GameObject:
   m_ObjectHideFlags: 0
@@ -654,9 +653,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 40278653}
-  distanceToOrigin: 1618.5023
+  distanceToOrigin: 631.68524
 --- !u!1 &40679296
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,9 +789,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 40679298}
-  distanceToOrigin: 1764.1012
+  distanceToOrigin: 688.511
 --- !u!1 &59039940
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,7 +875,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 59039946}
   distanceToOrigin: 62.801273
 --- !u!4 &59039945
@@ -1122,7 +1121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 74356371}
   distanceToOrigin: 53.652355
 --- !u!4 &74356375
@@ -1258,7 +1257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 77735891}
   distanceToOrigin: 79.55424
 --- !u!4 &77735895
@@ -1409,9 +1408,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 84272872}
-  distanceToOrigin: 854.0345
+  distanceToOrigin: 333.32117
 --- !u!1001 &88164502
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1420,6 +1419,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 92236095}
     m_Modifications:
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 171.27461
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 85.63731
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -22.97705
+      objectReference: {fileID: 0}
     - target: {fileID: 5645012161715650798, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1564,6 +1588,56 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 171.27461
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 85.63731
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -94.885254
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 171.27461
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 85.63731
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -58.931152
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1747,9 +1821,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 102676009}
-  distanceToOrigin: 1277.454
+  distanceToOrigin: 498.57755
 --- !u!1 &120467386
 GameObject:
   m_ObjectHideFlags: 0
@@ -1883,9 +1957,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 120467388}
-  distanceToOrigin: 1167.2925
+  distanceToOrigin: 455.5826
 --- !u!1 &124824592
 GameObject:
   m_ObjectHideFlags: 0
@@ -1969,7 +2043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 124824598}
   distanceToOrigin: 76.40476
 --- !u!4 &124824597
@@ -2140,7 +2214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 131615479}
   distanceToOrigin: 74.692505
 --- !u!4 &131615483
@@ -2291,9 +2365,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 134240789}
-  distanceToOrigin: 1404.0009
+  distanceToOrigin: 547.9675
 --- !u!1 &134601046
 GameObject:
   m_ObjectHideFlags: 0
@@ -2412,7 +2486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 134601047}
   distanceToOrigin: 70.76604
 --- !u!4 &134601051
@@ -2563,9 +2637,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 146837339}
-  distanceToOrigin: 1943.254
+  distanceToOrigin: 758.4327
 --- !u!1001 &147067345
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2574,6 +2648,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 92236095}
     m_Modifications:
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 171.27461
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 85.63731
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -22.97705
+      objectReference: {fileID: 0}
     - target: {fileID: 5645012161715650798, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -2719,6 +2818,56 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 171.27461
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 85.63731
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -94.885254
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 171.27461
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 85.63731
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -58.931152
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2857,9 +3006,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 162497339}
-  distanceToOrigin: 1213.0563
+  distanceToOrigin: 473.4437
 --- !u!1 &164206444
 GameObject:
   m_ObjectHideFlags: 0
@@ -2993,9 +3142,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 164206446}
-  distanceToOrigin: 1337.7363
+  distanceToOrigin: 522.1051
 --- !u!1 &190245044
 GameObject:
   m_ObjectHideFlags: 0
@@ -3129,9 +3278,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 190245046}
-  distanceToOrigin: 1866.1481
+  distanceToOrigin: 728.3389
 --- !u!1 &202994716
 GameObject:
   m_ObjectHideFlags: 0
@@ -3265,9 +3414,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 202994718}
-  distanceToOrigin: 1108.1213
+  distanceToOrigin: 432.48868
 --- !u!1 &203515284
 GameObject:
   m_ObjectHideFlags: 0
@@ -3386,9 +3535,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 203515285}
-  distanceToOrigin: 56.45189
+  distanceToOrigin: 56.451862
 --- !u!4 &203515289
 Transform:
   m_ObjectHideFlags: 0
@@ -3404,6 +3553,92 @@ Transform:
   m_Children: []
   m_Father: {fileID: 840802103}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &203869746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 203869747}
+  - component: {fileID: 203869749}
+  - component: {fileID: 203869748}
+  m_Layer: 10
+  m_Name: Model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &203869747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203869746}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1340474111}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!23 &203869748
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203869746}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -8896051167825165466, guid: 8b4d65deb57da43d49707a6a06d394cc, type: 3}
+  - {fileID: -6867524174320841699, guid: 8b4d65deb57da43d49707a6a06d394cc, type: 3}
+  - {fileID: -4660651839558579860, guid: 8b4d65deb57da43d49707a6a06d394cc, type: 3}
+  - {fileID: 6231023347082624160, guid: 8b4d65deb57da43d49707a6a06d394cc, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &203869749
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203869746}
+  m_Mesh: {fileID: -4420684004710436906, guid: 8b4d65deb57da43d49707a6a06d394cc, type: 3}
 --- !u!1 &223910411
 GameObject:
   m_ObjectHideFlags: 0
@@ -3522,7 +3757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 223910412}
   distanceToOrigin: 60.662468
 --- !u!4 &223910416
@@ -3642,12 +3877,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 232963028}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1125632713}
+  m_Father: {fileID: 1500668218}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!64 &232963030
 MeshCollider:
@@ -3750,7 +3985,7 @@ Transform:
   m_GameObject: {fileID: 239229988}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.7575, y: 1.5825, z: 0}
+  m_LocalPosition: {x: -0.22, y: 0.8, z: 0}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -3855,9 +4090,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1733029868}
-  rotation: 0.002
+  rotation: 0.005
   myCollider: {fileID: 239229993}
-  distanceToOrigin: 701.78204
+  distanceToOrigin: 331.8795
 --- !u!1 &241075414
 GameObject:
   m_ObjectHideFlags: 0
@@ -3977,9 +4212,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 242700325}
-  distanceToOrigin: 64.35411
+  distanceToOrigin: 64.3541
 --- !u!4 &242700324
 Transform:
   m_ObjectHideFlags: 0
@@ -4163,9 +4398,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 242863831}
-  distanceToOrigin: 1440.9142
+  distanceToOrigin: 562.3743
 --- !u!1 &251473372
 GameObject:
   m_ObjectHideFlags: 0
@@ -4299,9 +4534,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 251473374}
-  distanceToOrigin: 1550.9762
+  distanceToOrigin: 605.3305
 --- !u!1 &251614746
 GameObject:
   m_ObjectHideFlags: 0
@@ -4522,9 +4757,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 256656776}
-  distanceToOrigin: 1499.918
+  distanceToOrigin: 585.403
 --- !u!224 &273846062 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5645012162780148261, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
@@ -4551,6 +4786,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 92236095}
     m_Modifications:
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 171.27461
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 85.63731
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -22.97705
+      objectReference: {fileID: 0}
     - target: {fileID: 5645012161715650798, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -4696,6 +4956,56 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 171.27461
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 85.63731
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -94.885254
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 171.27461
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 85.63731
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -58.931152
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4834,9 +5144,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 292786554}
-  distanceToOrigin: 1866.0964
+  distanceToOrigin: 728.3188
 --- !u!1 &295780633
 GameObject:
   m_ObjectHideFlags: 0
@@ -4970,9 +5280,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 295780635}
-  distanceToOrigin: 1180.904
+  distanceToOrigin: 460.89508
 --- !u!1 &296911804
 GameObject:
   m_ObjectHideFlags: 0
@@ -5106,9 +5416,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 296911806}
-  distanceToOrigin: 1735.2521
+  distanceToOrigin: 677.2515
 --- !u!1 &302855410
 GameObject:
   m_ObjectHideFlags: 0
@@ -5227,7 +5537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 302855411}
   distanceToOrigin: 11.687634
 --- !u!4 &302855415
@@ -5363,9 +5673,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 304193761}
-  distanceToOrigin: 63.42858
+  distanceToOrigin: 63.42855
 --- !u!4 &304193765
 Transform:
   m_ObjectHideFlags: 0
@@ -5466,7 +5776,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29.9
+  m_fontSize: 29.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5667,9 +5977,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 329092587}
-  distanceToOrigin: 1107.9803
+  distanceToOrigin: 432.43365
 --- !u!1 &332624852
 GameObject:
   m_ObjectHideFlags: 0
@@ -5803,9 +6113,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 332624854}
-  distanceToOrigin: 1367.1324
+  distanceToOrigin: 533.5782
 --- !u!1 &347508470
 GameObject:
   m_ObjectHideFlags: 0
@@ -5924,9 +6234,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 347508471}
-  distanceToOrigin: 74.21516
+  distanceToOrigin: 74.21514
 --- !u!4 &347508475
 Transform:
   m_ObjectHideFlags: 0
@@ -6078,9 +6388,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 365721664}
-  distanceToOrigin: 77.2601
+  distanceToOrigin: 77.260086
 --- !u!4 &365721668
 Transform:
   m_ObjectHideFlags: 0
@@ -6229,9 +6539,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 366865531}
-  distanceToOrigin: 1595.272
+  distanceToOrigin: 622.6187
 --- !u!1 &370532191
 GameObject:
   m_ObjectHideFlags: 0
@@ -6391,7 +6701,7 @@ Transform:
   m_GameObject: {fileID: 378534324}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -117.4, y: 85.2, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6510,7 +6820,8 @@ MonoBehaviour:
   m_text: Option A
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fce2d8f0d05cdd747aa67df639e4d0de, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -5915914923531171493, guid: fce2d8f0d05cdd747aa67df639e4d0de,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6573,7 +6884,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &380061843
@@ -6615,12 +6926,12 @@ PrefabInstance:
     - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 171.2746
+      value: 171.27461
       objectReference: {fileID: 0}
     - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 85.6373
+      value: 85.63731
       objectReference: {fileID: 0}
     - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
         type: 3}
@@ -6795,12 +7106,12 @@ PrefabInstance:
     - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 171.2746
+      value: 171.27461
       objectReference: {fileID: 0}
     - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 85.6373
+      value: 85.63731
       objectReference: {fileID: 0}
     - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
         type: 3}
@@ -6830,12 +7141,12 @@ PrefabInstance:
     - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 171.2746
+      value: 171.27461
       objectReference: {fileID: 0}
     - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 85.6373
+      value: 85.63731
       objectReference: {fileID: 0}
     - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
         type: 3}
@@ -6980,9 +7291,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 393286348}
-  distanceToOrigin: 1249.9358
+  distanceToOrigin: 487.8374
 --- !u!1 &402193764
 GameObject:
   m_ObjectHideFlags: 0
@@ -7116,9 +7427,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 402193766}
-  distanceToOrigin: 1348.7039
+  distanceToOrigin: 526.3857
 --- !u!1 &402533178
 GameObject:
   m_ObjectHideFlags: 0
@@ -7252,9 +7563,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 402533180}
-  distanceToOrigin: 1692.0198
+  distanceToOrigin: 660.3783
 --- !u!1 &405296725
 GameObject:
   m_ObjectHideFlags: 0
@@ -7388,9 +7699,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 405296727}
-  distanceToOrigin: 1814.8848
+  distanceToOrigin: 708.3313
 --- !u!1 &408701147
 GameObject:
   m_ObjectHideFlags: 0
@@ -7474,7 +7785,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 408701153}
   distanceToOrigin: 70.64282
 --- !u!4 &408701152
@@ -7610,7 +7921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 408845735}
   distanceToOrigin: 67.52363
 --- !u!4 &408845734
@@ -7781,9 +8092,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 416584037}
-  distanceToOrigin: 93.205864
+  distanceToOrigin: 93.205894
 --- !u!4 &416584041
 Transform:
   m_ObjectHideFlags: 0
@@ -7932,9 +8243,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 416719446}
-  distanceToOrigin: 1424.6702
+  distanceToOrigin: 556.0345
 --- !u!1 &417996834
 GameObject:
   m_ObjectHideFlags: 0
@@ -8068,9 +8379,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 417996836}
-  distanceToOrigin: 1814.8883
+  distanceToOrigin: 708.33276
 --- !u!1 &421336280
 GameObject:
   m_ObjectHideFlags: 0
@@ -8409,9 +8720,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 432534079}
-  distanceToOrigin: 1785.4459
+  distanceToOrigin: 696.8416
 --- !u!1001 &435295864
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8420,6 +8731,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 92236095}
     m_Modifications:
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 171.27461
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 85.63731
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -22.97705
+      objectReference: {fileID: 0}
     - target: {fileID: 5645012161715650798, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -8564,6 +8900,56 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 171.27461
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 85.63731
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -94.885254
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 171.27461
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 85.63731
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -58.931152
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9515,7 +9901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 468462135}
   distanceToOrigin: 76.9491
 --- !u!4 &468462139
@@ -9704,6 +10090,7 @@ MonoBehaviour:
   strategy:
     rid: 571124108661882885
   target: {fileID: 2048493770}
+  isSteering: 1
   references:
     version: 2
     RefIds:
@@ -9808,7 +10195,7 @@ Transform:
   m_GameObject: {fileID: 480895072}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1788, y: 852, z: 0}
+  m_LocalPosition: {x: -268, y: 369, z: 0}
   m_LocalScale: {x: 4.7, y: 4.7, z: 4.7}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -9916,7 +10303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 498280442}
   distanceToOrigin: 76.15805
 --- !u!4 &498280441
@@ -10102,9 +10489,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 498534725}
-  distanceToOrigin: 1941.6143
+  distanceToOrigin: 757.79266
 --- !u!1 &503799931
 GameObject:
   m_ObjectHideFlags: 0
@@ -10313,9 +10700,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 506209076}
-  distanceToOrigin: 1458.3992
+  distanceToOrigin: 569.19867
 --- !u!1 &519365934
 GameObject:
   m_ObjectHideFlags: 0
@@ -10449,9 +10836,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 519365936}
-  distanceToOrigin: 1687.3313
+  distanceToOrigin: 658.5484
 --- !u!1 &522258558
 GameObject:
   m_ObjectHideFlags: 0
@@ -10535,7 +10922,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 522258564}
   distanceToOrigin: 70.60087
 --- !u!4 &522258563
@@ -10796,9 +11183,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 526287903}
-  distanceToOrigin: 1528.2244
+  distanceToOrigin: 596.45074
 --- !u!1 &529943414
 GameObject:
   m_ObjectHideFlags: 0
@@ -10917,7 +11304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 529943415}
   distanceToOrigin: 74.05071
 --- !u!4 &529943419
@@ -11068,9 +11455,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 532108026}
-  distanceToOrigin: 1455.3572
+  distanceToOrigin: 568.0114
 --- !u!1 &535920543
 GameObject:
   m_ObjectHideFlags: 0
@@ -11097,7 +11484,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.48575547, w: 0.8740948}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.0025000002, y: 0.0025000002, z: 0.0025}
+  m_LocalScale: {x: 0.00097572507, y: 0.00097572507, z: 0.00097572495}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 134240788}
@@ -11367,9 +11754,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 549945061}
-  distanceToOrigin: 2011.1333
+  distanceToOrigin: 784.9253
 --- !u!1 &566356780
 GameObject:
   m_ObjectHideFlags: 0
@@ -11503,9 +11890,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 566356782}
-  distanceToOrigin: 1281.8655
+  distanceToOrigin: 500.29926
 --- !u!1 &569304814
 GameObject:
   m_ObjectHideFlags: 0
@@ -11639,9 +12026,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 569304816}
-  distanceToOrigin: 1596.9667
+  distanceToOrigin: 623.2801
 --- !u!1 &573602973
 GameObject:
   m_ObjectHideFlags: 0
@@ -11675,7 +12062,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -0.0000038146973}
   m_SizeDelta: {x: 0, y: 28}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &581983460
@@ -11761,7 +12148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 581983466}
   distanceToOrigin: 79.16244
 --- !u!4 &581983465
@@ -11947,9 +12334,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 590806221}
-  distanceToOrigin: 1438.3342
+  distanceToOrigin: 561.36743
 --- !u!1 &603454454
 GameObject:
   m_ObjectHideFlags: 0
@@ -12068,9 +12455,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 603454455}
-  distanceToOrigin: 89.92769
+  distanceToOrigin: 89.92767
 --- !u!4 &603454459
 Transform:
   m_ObjectHideFlags: 0
@@ -12204,7 +12591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 604995036}
   distanceToOrigin: 70.5108
 --- !u!4 &604995040
@@ -12401,9 +12788,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 608528581}
-  distanceToOrigin: 1595.1708
+  distanceToOrigin: 622.5792
 --- !u!1 &610301160
 GameObject:
   m_ObjectHideFlags: 0
@@ -12522,7 +12909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 610301161}
   distanceToOrigin: 79.11733
 --- !u!4 &610301165
@@ -12673,9 +13060,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 618267405}
-  distanceToOrigin: 1465.048
+  distanceToOrigin: 571.79364
 --- !u!1001 &624131548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12967,9 +13354,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 637656575}
-  distanceToOrigin: 854.0377
+  distanceToOrigin: 333.32233
 --- !u!1 &641386593
 GameObject:
   m_ObjectHideFlags: 0
@@ -13103,9 +13490,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 641386595}
-  distanceToOrigin: 1495.629
+  distanceToOrigin: 583.72906
 --- !u!1 &652213767
 GameObject:
   m_ObjectHideFlags: 0
@@ -13239,9 +13626,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 652213769}
-  distanceToOrigin: 972.21185
+  distanceToOrigin: 379.44455
 --- !u!1 &657069669
 GameObject:
   m_ObjectHideFlags: 0
@@ -13360,9 +13747,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 657069670}
-  distanceToOrigin: 78.30414
+  distanceToOrigin: 78.30411
 --- !u!4 &657069674
 Transform:
   m_ObjectHideFlags: 0
@@ -13511,9 +13898,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 659745298}
-  distanceToOrigin: 1613.7998
+  distanceToOrigin: 629.8499
 --- !u!1 &664487776
 GameObject:
   m_ObjectHideFlags: 0
@@ -13647,9 +14034,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 664487778}
-  distanceToOrigin: 975.9375
+  distanceToOrigin: 380.89862
 --- !u!1 &676021505
 GameObject:
   m_ObjectHideFlags: 0
@@ -13783,9 +14170,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 676021507}
-  distanceToOrigin: 1192.3583
+  distanceToOrigin: 465.36548
 --- !u!1 &684183409
 GameObject:
   m_ObjectHideFlags: 0
@@ -13919,9 +14306,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 684183411}
-  distanceToOrigin: 2011.2421
+  distanceToOrigin: 784.96765
 --- !u!1 &698416252
 GameObject:
   m_ObjectHideFlags: 0
@@ -14055,9 +14442,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 698416254}
-  distanceToOrigin: 1178.8933
+  distanceToOrigin: 460.1103
 --- !u!1 &716733568
 GameObject:
   m_ObjectHideFlags: 0
@@ -14176,9 +14563,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 716733569}
-  distanceToOrigin: 70.8914
+  distanceToOrigin: 70.89139
 --- !u!4 &716733573
 Transform:
   m_ObjectHideFlags: 0
@@ -14462,9 +14849,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 761314487}
-  distanceToOrigin: 1528.1381
+  distanceToOrigin: 596.417
 --- !u!1 &761431504
 GameObject:
   m_ObjectHideFlags: 0
@@ -14598,9 +14985,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 761431506}
-  distanceToOrigin: 1961.054
+  distanceToOrigin: 765.37976
 --- !u!224 &769842087 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5645012162780148261, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
@@ -14737,7 +15124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 783307411}
   distanceToOrigin: 78.388145
 --- !u!4 &783307415
@@ -14888,9 +15275,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 788291986}
-  distanceToOrigin: 975.9146
+  distanceToOrigin: 380.88974
 --- !u!1 &807939530
 GameObject:
   m_ObjectHideFlags: 0
@@ -15175,9 +15562,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 827182470}
-  distanceToOrigin: 80.1424
+  distanceToOrigin: 80.14237
 --- !u!4 &827182469
 Transform:
   m_ObjectHideFlags: 0
@@ -15346,7 +15733,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 828088318}
   distanceToOrigin: 78.584
 --- !u!4 &828088322
@@ -15482,9 +15869,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 840351761}
-  distanceToOrigin: 92.999115
+  distanceToOrigin: 92.99911
 --- !u!4 &840351765
 Transform:
   m_ObjectHideFlags: 0
@@ -15730,9 +16117,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 846508624}
-  distanceToOrigin: 1168.561
+  distanceToOrigin: 456.07773
 --- !u!1 &849537632
 GameObject:
   m_ObjectHideFlags: 0
@@ -15887,7 +16274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 852871156}
   distanceToOrigin: 54.78106
 --- !u!4 &852871160
@@ -15988,9 +16375,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 853244850}
-  distanceToOrigin: 59.808025
+  distanceToOrigin: 59.80803
 --- !u!4 &853244849
 Transform:
   m_ObjectHideFlags: 0
@@ -16159,7 +16546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 853486176}
   distanceToOrigin: 83.341034
 --- !u!4 &853486180
@@ -16295,7 +16682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 855710110}
   distanceToOrigin: 70.80778
 --- !u!4 &855710114
@@ -16396,7 +16783,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 888943918}
   distanceToOrigin: 93.434525
 --- !u!4 &888943917
@@ -16582,9 +16969,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 890172550}
-  distanceToOrigin: 1465.04
+  distanceToOrigin: 571.79047
 --- !u!1 &900328709
 GameObject:
   m_ObjectHideFlags: 0
@@ -16718,9 +17105,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 900328711}
-  distanceToOrigin: 1613.9005
+  distanceToOrigin: 629.8892
 --- !u!1 &902156506
 GameObject:
   m_ObjectHideFlags: 0
@@ -16804,9 +17191,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 902156512}
-  distanceToOrigin: 58.569336
+  distanceToOrigin: 58.569305
 --- !u!4 &902156511
 Transform:
   m_ObjectHideFlags: 0
@@ -16990,9 +17377,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 906076504}
-  distanceToOrigin: 1240.677
+  distanceToOrigin: 484.22375
 --- !u!1001 &908547924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17236,7 +17623,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 41.3
+  m_fontSize: 29.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -17419,9 +17806,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 912825871}
-  distanceToOrigin: 1656.3252
+  distanceToOrigin: 646.4472
 --- !u!1 &914422590
 GameObject:
   m_ObjectHideFlags: 0
@@ -17616,7 +18003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 919683464}
   distanceToOrigin: 102.847336
 --- !u!4 &919683468
@@ -17767,9 +18154,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 934280903}
-  distanceToOrigin: 1861.3768
+  distanceToOrigin: 726.4768
 --- !u!1 &936781105
 GameObject:
   m_ObjectHideFlags: 0
@@ -17903,9 +18290,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 936781107}
-  distanceToOrigin: 1735.1759
+  distanceToOrigin: 677.2218
 --- !u!1 &943262870
 GameObject:
   m_ObjectHideFlags: 0
@@ -18148,9 +18535,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 944992057}
-  distanceToOrigin: 1648.2065
+  distanceToOrigin: 643.27856
 --- !u!1 &953829172
 GameObject:
   m_ObjectHideFlags: 0
@@ -18434,9 +18821,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 963865086}
-  distanceToOrigin: 1751.8756
+  distanceToOrigin: 683.7395
 --- !u!1 &987657288
 GameObject:
   m_ObjectHideFlags: 0
@@ -18570,9 +18957,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 987657290}
-  distanceToOrigin: 1105.9396
+  distanceToOrigin: 431.6372
 --- !u!1 &996928869
 GameObject:
   m_ObjectHideFlags: 0
@@ -18706,9 +19093,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 996928871}
-  distanceToOrigin: 1105.9984
+  distanceToOrigin: 431.66006
 --- !u!1 &1003778417
 GameObject:
   m_ObjectHideFlags: 0
@@ -18842,9 +19229,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1003778419}
-  distanceToOrigin: 972.16
+  distanceToOrigin: 379.4243
 --- !u!1 &1017015869
 GameObject:
   m_ObjectHideFlags: 0
@@ -18963,7 +19350,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1017015870}
   distanceToOrigin: 85.54863
 --- !u!4 &1017015874
@@ -19114,9 +19501,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1024896112}
-  distanceToOrigin: 1751.8815
+  distanceToOrigin: 683.7419
 --- !u!1 &1025550943
 GameObject:
   m_ObjectHideFlags: 0
@@ -19250,9 +19637,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1025550945}
-  distanceToOrigin: 1743.5026
+  distanceToOrigin: 680.4716
 --- !u!1 &1034484899
 GameObject:
   m_ObjectHideFlags: 0
@@ -19422,9 +19809,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1041748860}
-  distanceToOrigin: 1679.58
+  distanceToOrigin: 655.52325
 --- !u!1 &1048444700
 GameObject:
   m_ObjectHideFlags: 0
@@ -19825,9 +20212,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1061598924}
-  distanceToOrigin: 1240.6385
+  distanceToOrigin: 484.20877
 --- !u!1 &1063522130
 GameObject:
   m_ObjectHideFlags: 0
@@ -19961,9 +20348,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1063522132}
-  distanceToOrigin: 1336.928
+  distanceToOrigin: 521.78955
 --- !u!1 &1075750429
 GameObject:
   m_ObjectHideFlags: 0
@@ -20097,9 +20484,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1075750431}
-  distanceToOrigin: 1573.1892
+  distanceToOrigin: 614
 --- !u!1 &1076346026
 GameObject:
   m_ObjectHideFlags: 0
@@ -20218,7 +20605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1076346027}
   distanceToOrigin: 91.40096
 --- !u!4 &1076346031
@@ -20437,9 +20824,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1111980367}
-  distanceToOrigin: 1718.0806
+  distanceToOrigin: 670.5496
 --- !u!1 &1116650880
 GameObject:
   m_ObjectHideFlags: 0
@@ -20663,9 +21050,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1117118139}
-  distanceToOrigin: 1367.3184
+  distanceToOrigin: 533.65063
 --- !u!1 &1125632712
 GameObject:
   m_ObjectHideFlags: 0
@@ -20695,7 +21082,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 232963029}
+  - {fileID: 1500668218}
   m_Father: {fileID: 1665324298}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1136648328
@@ -20867,9 +21254,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1140156318}
-  distanceToOrigin: 1440.9514
+  distanceToOrigin: 562.3889
 --- !u!1 &1144994498
 GameObject:
   m_ObjectHideFlags: 0
@@ -21078,9 +21465,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1150376042}
-  distanceToOrigin: 1458.0735
+  distanceToOrigin: 569.0715
 --- !u!1 &1156827545
 GameObject:
   m_ObjectHideFlags: 0
@@ -21214,9 +21601,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1156827547}
-  distanceToOrigin: 2288.3516
+  distanceToOrigin: 893.1208
 --- !u!1 &1158404872
 GameObject:
   m_ObjectHideFlags: 0
@@ -21515,9 +21902,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1171849592}
-  distanceToOrigin: 84.00933
+  distanceToOrigin: 84.009315
 --- !u!4 &1171849596
 Transform:
   m_ObjectHideFlags: 0
@@ -21666,9 +22053,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1173549466}
-  distanceToOrigin: 2076.7993
+  distanceToOrigin: 810.554
 --- !u!1 &1194133784
 GameObject:
   m_ObjectHideFlags: 0
@@ -21787,7 +22174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1194133785}
   distanceToOrigin: 64.71525
 --- !u!4 &1194133789
@@ -21888,7 +22275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1201701613}
   distanceToOrigin: 89.21212
 --- !u!4 &1201701612
@@ -22074,9 +22461,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1217804356}
-  distanceToOrigin: 1648.3544
+  distanceToOrigin: 643.3362
 --- !u!1 &1219649816
 GameObject:
   m_ObjectHideFlags: 0
@@ -22210,9 +22597,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1219649818}
-  distanceToOrigin: 1178.8257
+  distanceToOrigin: 460.08386
 --- !u!1 &1219698367
 GameObject:
   m_ObjectHideFlags: 0
@@ -22296,7 +22683,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1219698373}
   distanceToOrigin: 79.59328
 --- !u!4 &1219698372
@@ -22557,9 +22944,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1259929643}
-  distanceToOrigin: 1416.9636
+  distanceToOrigin: 553.0268
 --- !u!1 &1266616343
 GameObject:
   m_ObjectHideFlags: 0
@@ -22643,9 +23030,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1266616349}
-  distanceToOrigin: 98.60691
+  distanceToOrigin: 98.60693
 --- !u!4 &1266616348
 Transform:
   m_ObjectHideFlags: 0
@@ -22704,6 +23091,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 92236095}
     m_Modifications:
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 171.27461
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 85.63731
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209000046351636023, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -22.97705
+      objectReference: {fileID: 0}
     - target: {fileID: 5645012161715650798, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -22849,6 +23261,56 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 171.27461
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 85.63731
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460695480449374410, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -94.885254
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 171.27461
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 85.63731
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558320826791481070, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -58.931152
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22972,7 +23434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1278518587}
   distanceToOrigin: 73.14541
 --- !u!4 &1278518591
@@ -23348,9 +23810,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1292937013}
-  distanceToOrigin: 1679.8352
+  distanceToOrigin: 655.6229
 --- !u!1 &1312698811
 GameObject:
   m_ObjectHideFlags: 0
@@ -23469,7 +23931,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1312698812}
   distanceToOrigin: 59.693684
 --- !u!4 &1312698816
@@ -23696,9 +24158,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1321149866}
-  distanceToOrigin: 1242.2584
+  distanceToOrigin: 484.84103
 --- !u!1 &1334378250
 GameObject:
   m_ObjectHideFlags: 0
@@ -23832,9 +24294,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1334378252}
-  distanceToOrigin: 1607.4774
+  distanceToOrigin: 627.3823
 --- !u!1 &1336461714
 GameObject:
   m_ObjectHideFlags: 0
@@ -23953,7 +24415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1336461715}
   distanceToOrigin: 82.720505
 --- !u!4 &1336461719
@@ -23971,6 +24433,143 @@ Transform:
   m_Children: []
   m_Father: {fileID: 840802103}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1340474110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1340474111}
+  - component: {fileID: 1340474113}
+  - component: {fileID: 1340474112}
+  - component: {fileID: 1340474114}
+  - component: {fileID: 1340474115}
+  m_Layer: 10
+  m_Name: Player nave 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1340474111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340474110}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -99.72, y: 231.70006, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 203869747}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1340474112
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340474110}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.6
+--- !u!50 &1340474113
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340474110}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &1340474114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340474110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa871d66fcd933469b2c57a9a7ee326, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 200
+  acceleration: 10
+  maxSpeed: 12
+  deceleration: 40
+  targetObject: {fileID: 2048493770}
+  offset: {x: -13, y: 0}
+--- !u!114 &1340474115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340474110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 048f282818a42466ca6ae90917ccf8be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strategy:
+    rid: -2
+  target: {fileID: 408701152}
+  isSteering: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
 --- !u!1 &1357250221
 GameObject:
   m_ObjectHideFlags: 0
@@ -24104,9 +24703,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1357250223}
-  distanceToOrigin: 1686.5575
+  distanceToOrigin: 658.2466
 --- !u!1 &1363336582
 GameObject:
   m_ObjectHideFlags: 0
@@ -24240,9 +24839,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1363336584}
-  distanceToOrigin: 1550.9438
+  distanceToOrigin: 605.3178
 --- !u!1 &1364015347
 GameObject:
   m_ObjectHideFlags: 0
@@ -24376,9 +24975,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1364015349}
-  distanceToOrigin: 1248.7102
+  distanceToOrigin: 487.35907
 --- !u!1 &1366772859
 GameObject:
   m_ObjectHideFlags: 0
@@ -24512,9 +25111,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1366772861}
-  distanceToOrigin: 1596.9994
+  distanceToOrigin: 623.29285
 --- !u!1 &1375074695
 GameObject:
   m_ObjectHideFlags: 0
@@ -24648,9 +25247,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1375074697}
-  distanceToOrigin: 1253.0698
+  distanceToOrigin: 489.0606
 --- !u!1 &1375752417
 GameObject:
   m_ObjectHideFlags: 0
@@ -24784,9 +25383,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1375752419}
-  distanceToOrigin: 1337.8324
+  distanceToOrigin: 522.14264
 --- !u!224 &1381447177 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5645012162780148261, guid: 7e7fd7485b7fc4c4bb286c62685f9aba,
@@ -24938,9 +25537,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1385115873}
-  distanceToOrigin: 1494.8893
+  distanceToOrigin: 583.4403
 --- !u!1 &1405236018
 GameObject:
   m_ObjectHideFlags: 0
@@ -25138,9 +25737,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1414774323}
-  distanceToOrigin: 1458.3674
+  distanceToOrigin: 569.1862
 --- !u!1 &1426923417
 GameObject:
   m_ObjectHideFlags: 0
@@ -25274,9 +25873,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1426923419}
-  distanceToOrigin: 2288.3672
+  distanceToOrigin: 893.12683
 --- !u!1 &1427693519
 GameObject:
   m_ObjectHideFlags: 0
@@ -25410,9 +26009,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1427693521}
-  distanceToOrigin: 1575.9069
+  distanceToOrigin: 615.06067
 --- !u!1 &1445846628
 GameObject:
   m_ObjectHideFlags: 0
@@ -25546,9 +26145,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1445846630}
-  distanceToOrigin: 1499.8187
+  distanceToOrigin: 585.36426
 --- !u!1 &1449488625
 GameObject:
   m_ObjectHideFlags: 0
@@ -25682,9 +26281,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1449488627}
-  distanceToOrigin: 926.9855
+  distanceToOrigin: 361.79312
 --- !u!1 &1452741047
 GameObject:
   m_ObjectHideFlags: 0
@@ -25913,7 +26512,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.05
+  m_fontSize: 21.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -26096,9 +26695,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1466371800}
-  distanceToOrigin: 1607.5917
+  distanceToOrigin: 627.4269
 --- !u!1 &1477743706
 GameObject:
   m_ObjectHideFlags: 0
@@ -26217,7 +26816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1477743707}
   distanceToOrigin: 56.802643
 --- !u!4 &1477743711
@@ -26234,6 +26833,38 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 840802103}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1500668217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1500668218}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1500668218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500668217}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 232963029}
+  m_Father: {fileID: 1125632713}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1509061360
 GameObject:
@@ -26368,9 +26999,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1509061362}
-  distanceToOrigin: 1982.7148
+  distanceToOrigin: 773.8337
 --- !u!1 &1510750343
 GameObject:
   m_ObjectHideFlags: 0
@@ -26504,9 +27135,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1510750345}
-  distanceToOrigin: 1688.3893
+  distanceToOrigin: 658.9614
 --- !u!1 &1512175695
 GameObject:
   m_ObjectHideFlags: 0
@@ -26640,9 +27271,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1512175697}
-  distanceToOrigin: 1571.514
+  distanceToOrigin: 613.3461
 --- !u!1 &1518388373
 GameObject:
   m_ObjectHideFlags: 0
@@ -26776,9 +27407,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1518388375}
-  distanceToOrigin: 1743.6143
+  distanceToOrigin: 680.5152
 --- !u!1 &1523094495
 GameObject:
   m_ObjectHideFlags: 0
@@ -26956,9 +27587,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1529202958}
-  distanceToOrigin: 1688.3376
+  distanceToOrigin: 658.9414
 --- !u!1 &1536964012
 GameObject:
   m_ObjectHideFlags: 0
@@ -27042,7 +27673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1536964018}
   distanceToOrigin: 74.11919
 --- !u!4 &1536964017
@@ -27213,7 +27844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1541464406}
   distanceToOrigin: 74.46996
 --- !u!4 &1541464410
@@ -27364,9 +27995,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1545359966}
-  distanceToOrigin: 1941.6389
+  distanceToOrigin: 757.80225
 --- !u!1 &1548954634
 GameObject:
   m_ObjectHideFlags: 0
@@ -27525,7 +28156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1551419855}
   distanceToOrigin: 78.74674
 --- !u!4 &1551419854
@@ -27786,9 +28417,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1566575560}
-  distanceToOrigin: 1618.4396
+  distanceToOrigin: 631.66077
 --- !u!1 &1574546551
 GameObject:
   m_ObjectHideFlags: 0
@@ -27922,9 +28553,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1574546553}
-  distanceToOrigin: 2256.3289
+  distanceToOrigin: 880.6226
 --- !u!1 &1587828364
 GameObject:
   m_ObjectHideFlags: 0
@@ -28146,7 +28777,8 @@ GameObject:
   - component: {fileID: 1610570733}
   - component: {fileID: 1610570736}
   - component: {fileID: 1610570735}
-  - component: {fileID: 1610570734}
+  - component: {fileID: 1610570737}
+  - component: {fileID: 1610570738}
   m_Layer: 0
   m_Name: Sun
   m_TagString: Untagged
@@ -28171,27 +28803,6 @@ Transform:
   - {fileID: 239229989}
   m_Father: {fileID: 1677435847}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1610570734
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1610570732}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1610570735
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28212,7 +28823,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7612f3d70518c0c45bff89149d5e5a8c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -28242,6 +28853,57 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610570732}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!58 &1610570737
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610570732}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
+--- !u!114 &1610570738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610570732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a58cbd70b1adf482391ac6da5d1a5ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  origin: {fileID: 1610570733}
+  rotation: 0
+  myCollider: {fileID: 1610570737}
+  distanceToOrigin: 0
 --- !u!1 &1613393770
 GameObject:
   m_ObjectHideFlags: 0
@@ -28327,7 +28989,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.05
+  m_fontSize: 21.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -28460,9 +29122,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1615465586}
-  distanceToOrigin: 60.835846
+  distanceToOrigin: 60.835842
 --- !u!4 &1615465585
 Transform:
   m_ObjectHideFlags: 0
@@ -28646,9 +29308,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1617621611}
-  distanceToOrigin: 1180.8777
+  distanceToOrigin: 460.8847
 --- !u!1 &1628360963
 GameObject:
   m_ObjectHideFlags: 0
@@ -28782,9 +29444,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1628360965}
-  distanceToOrigin: 1961.1791
+  distanceToOrigin: 765.42865
 --- !u!1 &1633382898
 GameObject:
   m_ObjectHideFlags: 0
@@ -28868,9 +29530,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1633382904}
-  distanceToOrigin: 57.60427
+  distanceToOrigin: 57.604267
 --- !u!4 &1633382903
 Transform:
   m_ObjectHideFlags: 0
@@ -29072,9 +29734,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1640128484}
-  distanceToOrigin: 1785.6112
+  distanceToOrigin: 696.9063
 --- !u!1 &1657605904
 GameObject:
   m_ObjectHideFlags: 0
@@ -29193,9 +29855,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1657605905}
-  distanceToOrigin: 79.79132
+  distanceToOrigin: 79.791336
 --- !u!4 &1657605909
 Transform:
   m_ObjectHideFlags: 0
@@ -29413,9 +30075,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1668598507}
-  distanceToOrigin: 1618.888
+  distanceToOrigin: 631.8358
 --- !u!1 &1671439927
 GameObject:
   m_ObjectHideFlags: 0
@@ -29534,7 +30196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1671439928}
   distanceToOrigin: 64.05583
 --- !u!4 &1671439932
@@ -29718,9 +30380,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1691609610}
-  distanceToOrigin: 1439.2833
+  distanceToOrigin: 561.7379
 --- !u!1 &1691763770
 GameObject:
   m_ObjectHideFlags: 0
@@ -29854,9 +30516,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1691763772}
-  distanceToOrigin: 1717.3721
+  distanceToOrigin: 670.27313
 --- !u!1 &1698841090
 GameObject:
   m_ObjectHideFlags: 0
@@ -30094,7 +30756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1717519756}
   distanceToOrigin: 98.25807
 --- !u!4 &1717519760
@@ -30245,9 +30907,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1720866619}
-  distanceToOrigin: 1403.3462
+  distanceToOrigin: 547.712
 --- !u!1 &1725465153
 GameObject:
   m_ObjectHideFlags: 0
@@ -30426,9 +31088,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1725959773}
-  distanceToOrigin: 1440.8063
+  distanceToOrigin: 562.3322
 --- !u!1 &1733029866
 GameObject:
   m_ObjectHideFlags: 0
@@ -30656,9 +31318,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1747346925}
-  distanceToOrigin: 1192.2592
+  distanceToOrigin: 465.32684
 --- !u!1 &1748021088
 GameObject:
   m_ObjectHideFlags: 0
@@ -30857,7 +31519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1753901884}
   distanceToOrigin: 55.03163
 --- !u!4 &1753901888
@@ -31026,9 +31688,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1774545682}
-  distanceToOrigin: 1348.7019
+  distanceToOrigin: 526.3849
 --- !u!1 &1784243696
 GameObject:
   m_ObjectHideFlags: 0
@@ -31162,9 +31824,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1784243698}
-  distanceToOrigin: 1277.6234
+  distanceToOrigin: 498.64365
 --- !u!1 &1790142632
 GameObject:
   m_ObjectHideFlags: 0
@@ -31248,9 +31910,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1790142638}
-  distanceToOrigin: 88.938
+  distanceToOrigin: 88.937996
 --- !u!4 &1790142637
 Transform:
   m_ObjectHideFlags: 0
@@ -31386,7 +32048,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29
+  m_fontSize: 23.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -31569,9 +32231,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1817647389}
-  distanceToOrigin: 2076.8096
+  distanceToOrigin: 810.5579
 --- !u!1 &1819196167
 GameObject:
   m_ObjectHideFlags: 0
@@ -31812,6 +32474,7 @@ MonoBehaviour:
   - {fileID: 1790142637}
   - {fileID: 532108025}
   - {fileID: 480895076}
+  - {fileID: 1340474111}
   dropdown: {fileID: 467290555}
   playerAgent: {fileID: 2048493769}
 --- !u!1 &1830303071
@@ -31947,9 +32610,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1830303073}
-  distanceToOrigin: 1575.8798
+  distanceToOrigin: 615.0501
 --- !u!1 &1831725519
 GameObject:
   m_ObjectHideFlags: 0
@@ -32083,9 +32746,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1831725521}
-  distanceToOrigin: 1213.1508
+  distanceToOrigin: 473.48068
 --- !u!1 &1836542024
 GameObject:
   m_ObjectHideFlags: 0
@@ -32219,9 +32882,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1836542026}
-  distanceToOrigin: 1442.7625
+  distanceToOrigin: 563.0958
 --- !u!1 &1839842047
 GameObject:
   m_ObjectHideFlags: 0
@@ -32355,9 +33018,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1839842049}
-  distanceToOrigin: 1457.994
+  distanceToOrigin: 569.04047
 --- !u!1 &1845475011
 GameObject:
   m_ObjectHideFlags: 0
@@ -32626,9 +33289,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1846308091}
-  distanceToOrigin: 1336.8564
+  distanceToOrigin: 521.76166
 --- !u!1 &1858338667
 GameObject:
   m_ObjectHideFlags: 0
@@ -32661,7 +33324,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1136648329}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.655193}
+  m_AnchorMin: {x: 0, y: 0.7139344}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -32822,9 +33485,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1858591541}
-  distanceToOrigin: 64.510704
+  distanceToOrigin: 64.51072
 --- !u!4 &1858591545
 Transform:
   m_ObjectHideFlags: 0
@@ -32973,9 +33636,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1880588391}
-  distanceToOrigin: 1416.9603
+  distanceToOrigin: 553.0254
 --- !u!1 &1883647880
 GameObject:
   m_ObjectHideFlags: 0
@@ -33109,9 +33772,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1883647882}
-  distanceToOrigin: 1982.7445
+  distanceToOrigin: 773.84546
 --- !u!1 &1888419985
 GameObject:
   m_ObjectHideFlags: 0
@@ -33245,9 +33908,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1888419987}
-  distanceToOrigin: 926.5802
+  distanceToOrigin: 361.635
 --- !u!1 &1903029534
 GameObject:
   m_ObjectHideFlags: 0
@@ -33381,9 +34044,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1903029536}
-  distanceToOrigin: 1281.927
+  distanceToOrigin: 500.32324
 --- !u!1 &1916955358
 GameObject:
   m_ObjectHideFlags: 0
@@ -33517,9 +34180,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1916955360}
-  distanceToOrigin: 1692.0504
+  distanceToOrigin: 660.3903
 --- !u!1 &1933539736
 GameObject:
   m_ObjectHideFlags: 0
@@ -33723,9 +34386,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1941799638}
-  distanceToOrigin: 1242.1414
+  distanceToOrigin: 484.79532
 --- !u!1 &1960477207
 GameObject:
   m_ObjectHideFlags: 0
@@ -33859,9 +34522,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 1960477209}
-  distanceToOrigin: 1861.6776
+  distanceToOrigin: 726.5941
 --- !u!1 &2003347692
 GameObject:
   m_ObjectHideFlags: 0
@@ -33995,9 +34658,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 2003347694}
-  distanceToOrigin: 1764.2025
+  distanceToOrigin: 688.55054
 --- !u!1 &2006952972
 GameObject:
   m_ObjectHideFlags: 0
@@ -34116,9 +34779,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 2006952973}
-  distanceToOrigin: 78.68479
+  distanceToOrigin: 78.68477
 --- !u!4 &2006952977
 Transform:
   m_ObjectHideFlags: 0
@@ -34267,9 +34930,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 2016404043}
-  distanceToOrigin: 1253.0953
+  distanceToOrigin: 489.07062
 --- !u!1 &2025819512
 GameObject:
   m_ObjectHideFlags: 0
@@ -34353,7 +35016,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1858338668}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.344807
+  m_Size: 0.28606558
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -34712,9 +35375,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 2037815120}
-  distanceToOrigin: 1656.1942
+  distanceToOrigin: 646.396
 --- !u!1 &2045511077
 GameObject:
   m_ObjectHideFlags: 0
@@ -34799,7 +35462,7 @@ GameObject:
   - component: {fileID: 2048493769}
   - component: {fileID: 2048493768}
   - component: {fileID: 2048493771}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Ship
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34848,6 +35511,7 @@ MonoBehaviour:
   strategy:
     rid: -2
   target: {fileID: 408701152}
+  isSteering: 1
   references:
     version: 2
     RefIds:
@@ -34862,7 +35526,7 @@ Transform:
   m_GameObject: {fileID: 2048493767}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -357, y: 491, z: 0}
+  m_LocalPosition: {x: -86, y: 231, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -35037,9 +35701,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 2055727763}
-  distanceToOrigin: 1424.8049
+  distanceToOrigin: 556.0871
 --- !u!1 &2056003270
 GameObject:
   m_ObjectHideFlags: 0
@@ -35173,9 +35837,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 2056003272}
-  distanceToOrigin: 2256.3857
+  distanceToOrigin: 880.64496
 --- !u!1 &2068829003
 GameObject:
   m_ObjectHideFlags: 0
@@ -35294,7 +35958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 2068829004}
   distanceToOrigin: 53.370686
 --- !u!4 &2068829008
@@ -35445,9 +36109,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 2073255802}
-  distanceToOrigin: 1619.0316
+  distanceToOrigin: 631.89185
 --- !u!1 &2077163304
 GameObject:
   m_ObjectHideFlags: 0
@@ -35566,7 +36230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 2077163305}
   distanceToOrigin: 67.490776
 --- !u!4 &2077163309
@@ -35667,9 +36331,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 2081421796}
-  distanceToOrigin: 55.69998
+  distanceToOrigin: 55.699997
 --- !u!4 &2081421795
 Transform:
   m_ObjectHideFlags: 0
@@ -35803,9 +36467,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 2096123548}
-  distanceToOrigin: 76.80526
+  distanceToOrigin: 76.805275
 --- !u!4 &2096123547
 Transform:
   m_ObjectHideFlags: 0
@@ -36007,9 +36671,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 1610570733}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 2135577556}
-  distanceToOrigin: 1438.5203
+  distanceToOrigin: 561.44006
 --- !u!1 &2138083697
 GameObject:
   m_ObjectHideFlags: 0
@@ -36093,9 +36757,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   origin: {fileID: 239229989}
-  rotation: 0.01
+  rotation: 0.015
   myCollider: {fileID: 2138083703}
-  distanceToOrigin: 73.32354
+  distanceToOrigin: 73.32353
 --- !u!4 &2138083702
 Transform:
   m_ObjectHideFlags: 0
@@ -36247,7 +36911,7 @@ GameObject:
   - component: {fileID: 543450652901533827}
   - component: {fileID: 3469287836684478246}
   - component: {fileID: 1711813855911973868}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36313,6 +36977,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 1750662791}
   - {fileID: 1523094497}
+  - {fileID: 1340474111}
   - {fileID: 421336283}
   - {fileID: 1665324298}
   - {fileID: 2048493770}

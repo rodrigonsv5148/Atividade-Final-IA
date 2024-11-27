@@ -5,7 +5,7 @@ using UnityEngine;
 [Serializable]
 public class Pursue : SteeringBehavior
 {
-    [SerializeField] StateParameter future = new StateParameter("Future", 0f, 100f, 10f);
+    [SerializeField] StateParameter future = new StateParameter("Future", 0f, 100f, 10f); // Isso aqui é o da hud
 
     public StateParameter Future => future;
 
@@ -13,7 +13,7 @@ public class Pursue : SteeringBehavior
     {
         var delta = agent.TargetPosition - agent.Position;
         if (agent.Target.gameObject.TryGetComponent<IObstacle>(out var target))
-            delta -= target.Velocity * future.CurrentValue;
+            delta += target.Velocity * future.CurrentValue;
         Debug.DrawLine(agent.Position, agent.Position + delta, Color.white);
         var desiredVelocity = delta.normalized * agent.MaxSpeed.CurrentValue;
         var desiredAcceleration = desiredVelocity - agent.Velocity;
