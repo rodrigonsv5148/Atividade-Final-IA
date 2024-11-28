@@ -14,6 +14,16 @@ public class Flee : SteeringBehavior
         var delta = agent.Position - agent.TargetPosition;
         var desiredVelocity = delta.magnitude < radius.CurrentValue ? delta.normalized * agent.MaxSpeed.CurrentValue : agent.Velocity;
         var desiredAcceleration = desiredVelocity - agent.Velocity;
+        if (GameManager.line && agent.Strategy.Behaviors[2].IsActive == true)
+        {
+            agent.lrf.enabled = true;
+            agent.lrf.SetPosition(0, agent.Position);
+            agent.lrf.SetPosition(1, agent.Position + delta);
+        }
+        else
+        {
+            agent.lrf.enabled = false;
+        }
         return desiredAcceleration * agent.MaxAcceleration.CurrentValue / agent.MaxSpeed.CurrentValue;
     }
 

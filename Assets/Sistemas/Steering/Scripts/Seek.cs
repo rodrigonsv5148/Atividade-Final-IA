@@ -10,7 +10,19 @@ public class Seek : SteeringBehavior
         var delta = agent.TargetPosition - agent.Position;
         var desiredVelocity = delta.normalized * agent.MaxSpeed.CurrentValue;
         var desiredAcceleration = desiredVelocity - agent.Velocity;
-        Debug.DrawLine(agent.Position, agent.Position + delta, Color.white);
+        if (GameManager.line && agent.Strategy.Behaviors[0].IsActive == true)
+        {
+            agent.lr.enabled = true;
+            agent.lr.SetPosition(0, agent.Position);
+            agent.lr.SetPosition(1, agent.Position + delta);
+        }
+        else
+        {
+            agent.lr.enabled = false;
+        }
+
+
+        //DrawLine(agent.Position, agent.Position + delta, Color.white);
         return desiredAcceleration * agent.MaxAcceleration.CurrentValue / agent.MaxSpeed.CurrentValue;
 
     }

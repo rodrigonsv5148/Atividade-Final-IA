@@ -6,6 +6,7 @@ public class SteeringAgent : MonoBehaviour, IObstacle
 {
     [SerializeReference] SteeringStrategy strategy;
     [SerializeField] Transform target;
+    [SerializeField] List<GameObject> lrs;
 
     Rigidbody2D physics;
     CircleCollider2D myCollider;
@@ -20,6 +21,10 @@ public class SteeringAgent : MonoBehaviour, IObstacle
     public SteeringOutput SteeringOutput { get; private set; }
     public SteeringStrategy Strategy => strategy;
     public bool isSteering = true;
+    public LineRenderer lr => lrs[0].GetComponent<LineRenderer>();
+    public LineRenderer lrp => lrs[1].GetComponent<LineRenderer>();
+    public LineRenderer lrf => lrs[2].GetComponent<LineRenderer>();
+    public LineRenderer lre => lrs[3].GetComponent<LineRenderer>();
 
     [ContextMenu("AddDefaultStrategy")]
     public void AddDefaultStrategy()
@@ -28,12 +33,12 @@ public class SteeringAgent : MonoBehaviour, IObstacle
         {
             Behaviors = new List<SteeringBehavior>
             {
-                new Avoid() { IsActive = false },
-                new Arrive() { IsActive = false },
-                new Pursue() { IsActive = false },
                 new Seek() { IsActive = false },
+                new Pursue() { IsActive = false },
                 new Flee() { IsActive = false },
-                new Evade() { IsActive = false }
+                new Evade() { IsActive = false },
+                new Avoid() { IsActive = false },
+                new Arrive() { IsActive = false }
             }
         };
     }
@@ -49,6 +54,23 @@ public class SteeringAgent : MonoBehaviour, IObstacle
                 new Vector3(0f, 0f, Mathf.Rad2Deg * Mathf.Atan2(-Velocity.x, Velocity.y)) :
                 transform.eulerAngles;
         }
+
+        if (Strategy.Behaviors[0].IsActive == false) 
+        {
+            lr.enabled = false;
+        }
+        if (Strategy.Behaviors[1].IsActive == false)
+        {
+            lrp.enabled = false;
+        }
+        if (Strategy.Behaviors[2].IsActive == false)
+        {
+            lrf.enabled = false;
+        }
+        if (Strategy.Behaviors[3].IsActive == false)
+        {
+            lre.enabled = false;
+        }
     }
 
     void Awake()
@@ -59,12 +81,12 @@ public class SteeringAgent : MonoBehaviour, IObstacle
         {
             Behaviors = new List<SteeringBehavior>
             {
-                new Avoid(),
-                new Arrive(),
                 new Seek(),
                 new Pursue() { IsActive = false },
                 new Flee() { IsActive = false },
-                new Evade() { IsActive= false }
+                new Evade() { IsActive= false },
+                new Avoid(){ IsActive = false },
+                new Arrive(){ IsActive = false }
             }
         };
     }
