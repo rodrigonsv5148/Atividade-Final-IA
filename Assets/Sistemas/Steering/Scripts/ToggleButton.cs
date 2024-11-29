@@ -16,4 +16,16 @@ public class ToggleButton : MonoBehaviour
             GameManager.line = false;
         }
     }
+
+    public void SendMessage2(bool toggleValue)
+    {
+        if (toggleValue)
+        {
+            GameManager.linePlayer = true;
+        }
+        else
+        {
+            GameManager.linePlayer = false;
+        }
+    }
 }

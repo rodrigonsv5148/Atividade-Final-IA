@@ -13,10 +13,12 @@ public class PlayerNave2 : MonoBehaviour
     public Vector2 offset = new Vector2(-13f, 0f); // Distância relativa (x, y) ao objeto
 
     private Rigidbody2D rb;
+    private LineRenderer lrplayer;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        lrplayer = GetComponent<LineRenderer>();
         rb.gravityScale = 0; // Sem gravidade
     }
 
@@ -68,6 +70,17 @@ public class PlayerNave2 : MonoBehaviour
             // Reseta velocidade ao reposicionar
             rb.velocity = Vector2.zero;
             rb.angularVelocity = 0f;
+        }
+
+        if (GameManager.linePlayer) 
+        {
+            lrplayer.enabled = true;
+            lrplayer.SetPosition(0, transform.position);
+            lrplayer.SetPosition(1, new Vector2 (transform.position.x, transform.position.y) + rb.velocity);
+        }
+        else 
+        {
+            lrplayer.enabled = false;
         }
     }
 }
