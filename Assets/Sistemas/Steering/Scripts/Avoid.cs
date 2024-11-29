@@ -49,13 +49,23 @@ public class Avoid : SteeringBehavior
                 highestPriority = (obstacle, timeToCollision, relativePosition, relativeVelocity);
         }
 
-        if (highestPriority.obstacle == null)
+        if (highestPriority.obstacle == null) 
+        {
+            agent.lrav.enabled = false;
             return Vector2.zero;
+        }
 
         var futureRelativePosition = highestPriority.relativePosition + highestPriority.relativeVelocity * highestPriority.timeToCollision;
         var closenessFactor = 1f - Mathf.Clamp01(highestPriority.timeToCollision / avoidWindow.CurrentValue);
         var desiredVelocity = -futureRelativePosition.normalized * closenessFactor * agent.MaxSpeed.CurrentValue;
         var desiredAcceleration = desiredVelocity - agent.Velocity;
+        
+        if (GameManager.line && agent.Strategy.Behaviors[4].IsActive == true)
+        {
+            agent.lrav.enabled = true;
+            agent.lrav.SetPosition(0, agent.Position);
+            agent.lrav.SetPosition(1, agent.Position + desiredVelocity);
+        }
 
         Debug.DrawLine(agent.Position, highestPriority.obstacle.Position, Color.blue);
         Debug.DrawLine(agent.Position, agent.Position + desiredAcceleration * agent.MaxAcceleration.CurrentValue / agent.MaxSpeed.CurrentValue, Color.yellow);

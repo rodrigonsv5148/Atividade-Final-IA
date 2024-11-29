@@ -25,6 +25,8 @@ public class SteeringAgent : MonoBehaviour, IObstacle
     public LineRenderer lrp => lrs[1].GetComponent<LineRenderer>();
     public LineRenderer lrf => lrs[2].GetComponent<LineRenderer>();
     public LineRenderer lre => lrs[3].GetComponent<LineRenderer>();
+    public LineRenderer lrar => lrs[4].GetComponent<LineRenderer>();
+    public LineRenderer lrav => lrs[5].GetComponent<LineRenderer>();
 
     [ContextMenu("AddDefaultStrategy")]
     public void AddDefaultStrategy()

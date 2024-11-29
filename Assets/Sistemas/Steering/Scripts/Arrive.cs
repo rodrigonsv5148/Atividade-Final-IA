@@ -17,6 +17,16 @@ public class Arrive : SteeringBehavior
         var brake = 1f - Mathf.Clamp01((delta.magnitude - arriveRadius.CurrentValue) / (slowRadius.CurrentValue - arriveRadius.CurrentValue));
         var desiredVelocity = delta.normalized * agent.MaxSpeed.CurrentValue;
         var desiredAcceleration = brake * (desiredVelocity - agent.Velocity);
+        if (GameManager.line && agent.Strategy.Behaviors[5].IsActive == true)
+        {
+            agent.lrar.enabled = true;
+            agent.lrar.SetPosition(0, agent.Position);
+            agent.lrar.SetPosition(1, agent.Position + desiredAcceleration);
+        }
+        else
+        {
+            agent.lrar.enabled = false;
+        }
         return desiredAcceleration * agent.MaxAcceleration.CurrentValue / agent.MaxSpeed.CurrentValue;
     }
 
