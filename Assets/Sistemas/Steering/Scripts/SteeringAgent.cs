@@ -6,7 +6,7 @@ public class SteeringAgent : MonoBehaviour, IObstacle
 {
     [SerializeReference] SteeringStrategy strategy;
     [SerializeField] Transform target;
-    [SerializeField] List<GameObject> lrs;
+    [SerializeField] List<GameObject> lrs = new List<GameObject>(6);
 
     Rigidbody2D physics;
     CircleCollider2D myCollider;
@@ -72,6 +72,14 @@ public class SteeringAgent : MonoBehaviour, IObstacle
         if (Strategy.Behaviors[3].IsActive == false)
         {
             lre.enabled = false;
+        }
+        if (Strategy.Behaviors[4].IsActive == false)
+        {
+            lrar.enabled = false;
+        }
+        if (Strategy.Behaviors[5].IsActive == false)
+        {
+            lrav.enabled = false;
         }
     }
 
